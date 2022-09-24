@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/eventmachine/eventmachine.git
+  revision: 9cb13a8a62363df5ebcc414169a3deb2c1608528
+  tag: v1.2.7
+  specs:
+    eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -22,8 +30,8 @@ GEM
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
     diff-lcs (1.4.4)
-    eventmachine (1.2.7)
     ffi (1.15.3)
+    ffi (1.15.3-x64-mingw32)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     listen (3.5.1)
@@ -87,11 +95,13 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x64-mingw32
   x86_64-darwin-19
 
 DEPENDENCIES
   activerecord (~> 6.1)
   database_cleaner (~> 2.0)
+  eventmachine (= 1.2.7)!
   pry (~> 0.14.1)
   rack-contrib (~> 2.3)
   rack-cors (~> 1.1)
@@ -107,4 +117,4 @@ DEPENDENCIES
   thin (~> 1.8)
 
 BUNDLED WITH
-   2.2.23
+   2.3.22
